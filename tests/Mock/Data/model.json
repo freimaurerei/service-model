@@ -1,0 +1,186 @@
+{
+  "testString": "string",
+  "testInt": 1,
+  "testBool": true,
+  "testFloat": 1.5,
+  "testObject": {
+    "field": false
+  },
+  "testArray": [
+    1,
+    2,
+    3
+  ],
+  "testObjectsArray": [
+    {
+      "field": false
+    },
+    {
+      "field": true
+    }
+  ],
+  "testNullString": null,
+  "testNullInt": null,
+  "testNullBool": null,
+  "testNullFloat": null,
+  "testNullObject": null,
+  "testNullArray": null,
+  "testCollectionModel": {
+    "collection1": [
+      {
+        "field": false
+      },
+      {
+        "field": true
+      }
+    ],
+    "collection2": [
+      {
+        "field": true
+      },
+      {
+        "field": false
+      }
+    ]
+  },
+  "testCollectionModelArray": [
+    {
+      "collection1": [
+        {
+          "field": false
+        },
+        {
+          "field": true
+        }
+      ],
+      "collection2": [
+        {
+          "field": true
+        },
+        {
+          "field": false
+        }
+      ]
+    },
+    {
+      "collection1": [
+        {
+          "field": false
+        },
+        {
+          "field": true
+        }
+      ],
+      "collection2": [
+        {
+          "field": true
+        },
+        {
+          "field": false
+        }
+      ]
+    }
+  ],
+  "testCollectionModelNonAssociative": [
+    [
+      {
+        "field": false
+      },
+      {
+        "field": true
+      }
+    ],
+    [
+      {
+        "field": true
+      },
+      {
+        "field": false
+      }
+    ]
+  ],
+  "testCollectionModelNonAssociativeArray": [
+    [
+      [
+        {
+          "field": false
+        },
+        {
+          "field": true
+        }
+      ],
+      [
+        {
+          "field": true
+        },
+        {
+          "field": false
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "field": false
+        },
+        {
+          "field": true
+        }
+      ],
+      [
+        {
+          "field": true
+        },
+        {
+          "field": false
+        }
+      ]
+    ]
+  ],
+  "testCollectionOfCollectionsModel": {
+    "collection1": [
+      [
+        [
+          {
+            "field": false
+          },
+          {
+            "field": true
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "field": false
+          },
+          {
+            "field": true
+          }
+        ]
+      ]
+    ],
+    "collection2": [
+      [
+        [
+          {
+            "field": true
+          },
+          {
+            "field": false
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "field": true
+          },
+          {
+            "field": false
+          }
+        ]
+      ]
+    ]
+  }
+}

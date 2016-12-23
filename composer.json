@@ -1,0 +1,29 @@
+{
+    "name": "freimaurerei/service-model",
+    "description": "Базовая модель для сериализации-десериализации",
+    "license": "proprietary",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Sergey Mikhaylov"
+        },
+        {
+            "name": "Denis Radchenko",
+            "email": "denis@doomer.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Freimaurerei\\ServiceModel\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "psr/log": "^1.0",
+        "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*",
+        "monolog/monolog": "*"
+    }
+}
