@@ -114,9 +114,9 @@ abstract class Model extends \yii\base\Model implements \JsonSerializable, \Seri
         return 'response';
     }
 
-    public function getSafeAttributeNames()
+    public function safeAttributes()
     {
-        return $this->areAttributesSafe ? $this->attributes() : parent::getSafeAttributeNames();
+        return $this->areAttributesSafe ? $this->attributes() : parent::safeAttributes();
     }
 
     /**
@@ -133,7 +133,7 @@ abstract class Model extends \yii\base\Model implements \JsonSerializable, \Seri
 
         $relations = array_intersect_key($this->relations(), $values);
 
-        $attributes = array_flip($safeOnly ? $this->getSafeAttributeNames() : $this->attributes());
+        $attributes = array_flip($safeOnly ? $this->safeAttributes() : $this->attributes());
         $scalarValues = array_diff_key($values, $relations);
         foreach ($scalarValues as $name => $value) {
             if (isset($attributes[$name])) {
