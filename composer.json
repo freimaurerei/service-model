@@ -1,7 +1,7 @@
 {
     "name": "freimaurerei/service-model",
     "description": "Базовая модель для сериализации-десериализации",
-    "license": "proprietary",
+    "license": "MIT",
     "version": "1.0",
     "authors": [
         {
